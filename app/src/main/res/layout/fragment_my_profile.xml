@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginFragmentPage">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:hint="Email" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="  Male"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="   Female"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/etDob"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:hint="DOB" />
+
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:hint="City" />
+
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:hint="Password" />
+
+
+</LinearLayout>
